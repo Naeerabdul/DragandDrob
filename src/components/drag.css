@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.containere{
+    width: 90%;
+    margin: auto;
+}
+.answers{
+    height: 4rem;
+    margin: 20px auto;
+    text-align: center;
+    padding: 16px;
+}
+.hi{
+    position: absolute;
+    top: 550px;
+    left :50px
+}
+.onover{
+    background-color: rgba(192, 191, 189, 0.9);
+    border-color:#00000000  !important; 
+}
+
+.boxs{
+    background-color: rgb(233, 233, 233);
+    border: gray 2px dashed !important;
+    
+}
+.dragging{
+    background-color: #ffbf0000!important;
+       border: #80808000 2px solid !important;
+       color:#00000000;
+  
+}
+.draggingg{
+    background-color: #ffbf00!important;
+       border: #80808000 2px solid !important;
+       color:#000000;
+  
+}
+.mousstil{
+ cursor: grab;
+}
+.mouss{
+ cursor:  grabbing;
+}
+
+.with{
+display: none;
+background-color: black !important;
+}
+.wth{
+     transform: translate(-50%,-30%);
+    background-color: #ffbf00!important;
+}
+.fals{
+    background-color: rgb(255, 255, 255) !important;
+    color: red !important;
+    border-color: red !important;
+    border-width: 3px !important;
+
+}
+.true{
+    background-color: rgb(255, 255, 255) !important;
+    color: green !important;
+    border-color: rgb(8, 216, 8 )!important;
+    border-width: 3px !important;
+}
+.baktrue{
+background-color: green !important;
+color: #fff;
+}
+.bakfalse{
+color: #fff;
+background-color: red !important;
+}
